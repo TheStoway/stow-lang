@@ -1,0 +1,17 @@
+/*
+   Ejemplo: Entrada de Usuario
+   Interactuando con el usuario mediante input.
+*/
+
+print("--- Formulario Interactivo ---");
+
+val nombre: Str = input("¿Cómo te llamas? ");
+print("Gusto en conocerte, " + nombre);
+
+val edad_str: Str = input("¿Cuántos años tienes? ");
+// Stow convierte tipos dinámicamente en comparaciones/matemáticas si son números
+if (edad_str < 18) {
+    print("Eres joven, " + nombre + "!");
+} else {
+    print("Eres un adulto, " + nombre + ".");
+}

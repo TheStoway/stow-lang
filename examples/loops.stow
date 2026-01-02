@@ -1,0 +1,31 @@
+/*
+   Ejemplo: Control de Flujo
+   Muestra bucles while, if/else, break y continue.
+*/
+
+print("--- Bucles y Condicionales ---");
+
+var i: Int = 0;
+
+while (i < 10) {
+    i = i + 1;
+
+    // Saltar el número 5
+    if (i == 5) {
+        print("Saltando el 5...");
+        continue;
+    }
+
+    // Parar en el 8
+    if (i == 8) {
+        print("Rompiendo el ciclo en 8!");
+        break;
+    }
+
+    // Lógica par/impar (simulada sin operador módulo por ahora)
+    print("Contando: " + i);
+    
+    if (i > 6) {
+        print(" -> ¡Es un número alto!");
+    }
+}

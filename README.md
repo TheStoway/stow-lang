@@ -40,10 +40,10 @@ Stow/
 ├── include/          # Headers
 │   └── stow.h
 ├── examples/         # Ejemplos
-│   ├── demo.stow
-│   └── debug.stow
-├── lib/              # Bibliotecas
-│   └── lib.stow
+│   ├── math.stow
+│   ├── loops.stow
+│   ├── functions.stow
+│   └── input.stow
 ├── Makefile          # Script de compilación
 ├── errors.json       # Errores
 ├── README.md

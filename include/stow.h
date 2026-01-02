@@ -69,8 +69,8 @@ typedef struct ASTNode {
     struct ASTNode* body;
     struct ASTNode* else_body;
     struct ASTNode* params; 
-    struct ASTNode* next_param; // Para listas de parametros/argumentos
-    struct ASTNode* index;      // Para listas
+    struct ASTNode* next_param; 
+    struct ASTNode* index;  
 } ASTNode;
 
 typedef struct Function {
@@ -80,7 +80,6 @@ typedef struct Function {
     struct Function* next;
 } Function;
 
-// Global state for control flow
 extern bool should_return;
 extern char* return_value;
 extern bool should_break;

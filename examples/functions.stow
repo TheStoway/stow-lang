@@ -1,0 +1,30 @@
+/*
+   Ejemplo: Funciones
+   Definición de funciones, parámetros y valores de retorno.
+*/
+
+print("--- Funciones ---");
+
+// Función sin retorno
+func saludar(nombre: Str): Void {
+    print("¡Hola " + nombre + "! Bienvenido a Stow.");
+}
+
+// Función con retorno
+func cuadrado(n: Int): Int {
+    return n * n;
+}
+
+// Función con múltiples parámetros
+func area_rectangulo(ancho: Int, alto: Int): Int {
+    return ancho * alto;
+}
+
+saludar("Programador");
+
+val lado: Int = 5;
+val area_cuad: Int = cuadrado(lado);
+print("El cuadrado de 5 es: " + area_cuad);
+
+val rect: Int = area_rectangulo(10, 20);
+print("Area de rectangulo 10x20: " + rect);

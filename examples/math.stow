@@ -1,0 +1,20 @@
+/*
+   Ejemplo: Matemáticas Básicas en Stow
+   Muestra suma, resta, multiplicación y división.
+*/
+
+print("--- Calculadora Básica ---");
+
+val a: Int = 10;
+val b: Int = 5;
+
+print("Números: " + a + " y " + b);
+print("Suma: " + (a + b));
+print("Resta: " + (a - b));
+print("Multiplicación: " + (a * b));
+print("División: " + (a / b));
+
+print("--- Operaciones Combinadas ---");
+// Nota: Stow evalúa de izquierda a derecha por ahora
+val ops: Int = a + b * 2; 
+print("10 + 5 * 2 = " + ops);
