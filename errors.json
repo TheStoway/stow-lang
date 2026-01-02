@@ -1,0 +1,46 @@
+[
+    {
+        "code": "E001",
+        "message": "Error de sintaxis: Se esperaba '('"
+    },
+    {
+        "code": "E002",
+        "message": "Error de sintaxis: Se esperaba ')'"
+    },
+    {
+        "code": "E003",
+        "message": "Error de sintaxis: Se esperaba ';'"
+    },
+    {
+        "code": "E004",
+        "message": "Error de sintaxis: Se esperaba ':' después del nombre de la variable"
+    },
+    {
+        "code": "E005",
+        "message": "Error de sintaxis: Se esperaba '=' para la asignación"
+    },
+    {
+        "code": "E006",
+        "message": "Error de tipo: El tipo especificado no existe"
+    },
+    {
+        "code": "E007",
+        "message": "Variable no definida"
+    },
+    {
+        "code": "E008",
+        "message": "Error de sintaxis: Se esperaba '{'"
+    },
+    {
+        "code": "E009",
+        "message": "Error de sintaxis: Se esperaba '}'"
+    },
+    {
+        "code": "E010",
+        "message": "Función no definida"
+    },
+    {
+        "code": "E011",
+        "message": "Número incorrecto de argumentos"
+    }
+]
